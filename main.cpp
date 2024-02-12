@@ -7,5 +7,5 @@ int main()
     maze m=maze(13,13);
     m.path(0,0);
     m.display();
-    //m.display(fopen("13x13.txt","wb"));
+    m.display(fopen("opi.txt","wb"));
 }
